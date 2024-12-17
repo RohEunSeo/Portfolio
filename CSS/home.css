@@ -1,0 +1,31 @@
+.home{
+  display: flex;
+  background: url("../img/banner.jpg") no-repeat center;
+  height: 100vh;
+  background-size: cover;
+  min-height: 450px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width{
+  margin: auto 0 auto 40px;
+}
+
+.home .home-section .text-1{
+  font-size: 40px;
+}
+
+.home .home-section .text-2{
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.home .home-section .text-3{
+  font-size: 50px;
+}
+
+.home .home-section .text-3 span{
+  color: rgb(255, 99, 99);
+  font-weight: 500;
+}

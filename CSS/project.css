@@ -1,0 +1,68 @@
+.project {
+    padding: 100px;
+    transition: all 0.3s ease;
+    
+}
+
+
+
+
+.project .project-content {
+    display: flex; /* 플렉스 컨테이너 */
+    justify-content: center; /* 항목 간 간격 균일하게 */
+    gap: 10px; /* 항목 간 간격 */
+    align-items: flex-start; /* 세로 정렬 기준 */
+}
+
+.project .project-content a {
+    display: flex;
+    text-align: center;
+    color: black;
+}
+
+.project .title::after {
+    content: "What Is My Project";
+}
+
+.project .project-content a,
+.project .project-content a:visited,
+.project .project-content a:active,
+.project .project-content a:hover {
+    text-decoration: none;
+}
+
+.project .project-content .project-item {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 25px 35px;
+    transition: all 0.3s ease;
+}
+
+.project .project-content .project-item img {
+    width: 320px;
+    height: 240px;
+
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.project .project-content .project-text {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.project .project-content p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project .project-content .project-item:hover {
+    background-color: rgb(255, 224, 224);
+    color: black;
+    transform: scale(1.05);
+}
+
+.project .project-content .project-item:hover img {
+    border-color: white;
+}

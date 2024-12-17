@@ -1,0 +1,133 @@
+/* 반응형 미디어 쿼리 */
+@media(max-width: 1799px){
+  .home .max-width {
+    margin-left: 5px;
+  }
+}
+
+@media(max-width: 1199px){
+  .about .about-content .left img {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media(max-width: 899px){
+  .max-width {
+    padding: 0 50px;
+  }
+}
+
+@media(max-width: 899px){
+  .navbar .menu-btn { 
+    display: inline-block;
+    z-index: 999;
+  }
+
+  .navbar .menu-btn i.active:before {
+    content: "\f00d";
+  }
+
+  .navbar .menubar {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: rgb(255, 99, 99);
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .menubar.active {
+    left: 0;
+  }
+
+  .navbar .menubar li {
+    display: block;
+  }
+
+  .navbar .menubar li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+
+  .home .home-content .text-2 {
+    font-size: 60px;
+  }
+  
+  .home .home-content .text-3 {
+    font-size: 10px;
+  }
+
+  .about .about-content .column {
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .about .about-content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+
+  .max-width {
+    max-width: 800px;
+  }
+
+  .skills .skills-content .column,
+  .my-site .my-site-content,
+  .activity .activity-content, /* activity 추가 */
+   /* activity 추가 */
+  /* activity 추가 */
+  .project .project-content ,
+  .contact .contact-content .column,
+  .skills .skills-content .programming,
+  .skills .skills-content .web {
+    width: 100%; /* 한 줄씩 정렬 */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  .my-site .my-site-content .site-text,
+  .activity .activity-content .activity-text
+  .project .project-content .project { /* activity 추가 */
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+
+@media(max-width: 599px){
+  .max-width {
+    padding: 0 25px;
+  } 
+
+  .home .home-section .text-2 {
+    font-size: 40px;
+  }
+  
+  .home .home-section .text-3 {
+    font-size: 22px;
+  }
+
+  .home .home-section a {
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 500px){
+  .home .home-section .text-1{
+    font-size: 30px;
+  }
+  .home .home-section .text-2 {
+    font-size: 45px;
+  }
+  
+  .home .home-section .text-3 {
+    font-size: 20px;
+  }
+}
+

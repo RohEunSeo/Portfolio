@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome 사용 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <!-- jquery 사용 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./nav.css">
+  <link rel="stylesheet" href="./home.css">
+  <link rel="stylesheet" href="./about.css">
+  <link rel="stylesheet" href="./activity.css">
+  <link rel="stylesheet" href="./language.css">
+  <link rel="stylesheet" href="./project.css">
+  <link rel="stylesheet" href="./mysite.css">
+  <link rel="stylesheet" href="./footer.css">
+  <link rel="stylesheet" href="./responsive.css">
+
+  <title>웹프기 기말과제</title>
+</head>
+<body>
+  <!-- 네이게이션 바 -->
+  <nav class="navbar">
+  <div class="max-width">
+    <div class="logo"><a href="#home">About<span> "me"</span></a></div>
+    <ul class="menubar">
+      <li><a href="#home" class="menu-btn" id="homeID">Home</a></li>
+      <li><a href="#about" class="menu-btn" id="aboutID">About</a></li>
+      <li><a href="#activity" class="menu-btn">Activity</a></li>
+      <li><a href="#Language" class="menu-btn">Language</a></li>
+      <li><a href="#project" class="menu-btn">Project</a></li>
+      <li><a href="#Social" class="menu-btn">Social</a></li>
+      
+    </ul>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+  </nav>
+  
+  <!-- 홈 섹션 -->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-section">
+        <div class="text-1">Dreaming AI developer </div>
+        <div class="text-2">Eunseo Roh</div>
+        <div class="text-3">I'll introduce <span class="typing1"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about 섹션 -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">About</h2>
+      <div class="about-content">
+        <div class="left column">
+          <img src="./img/profile-1.jpg" alt="profile">
+        </div>
+        <div class="right column">
+          <div class="about-skills"> Name : <span class="typing0"></span></div>
+          <div class="about-skills"> Birth Year : <span class="typing4"></span></div>
+          <div class="about-skills"> School : <span class="typing2"></span></div>
+          <div class="about-skills">My Skills :  <span class="typing3"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Activity 섹션 -->
+<section class="activity" id="activity">
+  <div class="max-width">
+      <h2 class="title">Activity</h2>
+      <div class="activity-content">
+          <div class="left column">
+              <a href="https://chrome-yacht-0c8.notion.site/ToI-2877780307a644d691d72908cb458578?pvs=4" target="_blank">
+                  <div class="activity-item">
+                      <div class="activity-images">
+                          <img src="./img/toi.png" alt="">
+                          <div class="activity-text">ToI</div>
+                          <p>2024.04~ 2024.12</p>
+                          <p>개발팀, CNN 스터디팀</p>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="center column">
+              <a href=https://chrome-yacht-0c8.notion.site/GDG-on-Campus-SSWU-78dac786c729472682881c2b3e9f68ee?pvs=4 target="_blank">
+                  <div class="activity-item">
+                      <div class="activity-images">
+                          <img src="./img/gdg.png" alt="">
+                          <div class="activity-text">GDG</div>
+                          <p>2024.09 ~ </p>
+                          <p>AI/ML 파트</p>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="right column">
+            <a href="https://www.instagram.com/high_cock_official/" target="_blank">
+                  <div class="activity-item">
+                      <div class="activity-images">
+                          <img src="./img/highcock.png" alt="">
+                          <div class="activity-text">Highcock</div>
+                          <p>2023.06 ~</p>
+                          <p>배드민턴 동아리</p>
+                      </div>
+                  </div>
+              </a>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  <!-- Language 섹션 -->
+  <section class="skills" id="Language">
+    <div class="max-width">
+      <h2 class="title">Language</h2>
+      <div class="skills-content">
+        <div class="left column">
+          <div class="skills-text">
+         
+            <div class="programming">
+              <figure class="cpp">
+                <img class="cpp_img" src="/img/cpp.png">
+                <svg width="200" height="200">
+                  <circle class="stroke_cpp" cx="100" cy="100" r="89"/>
+                </svg>
+                <p>cpp</p>
+              </figure>
+  
+              <figure class="python">
+                <img class="python_img" src="/img/python.png">
+                <svg width="200" height="200">
+                  <circle class="stroke_python" cx="100" cy="100" r="89"/>
+                </svg>
+                <p>python</p>
+              </figure>
+  
+              <figure class="java">
+                <img class="java_img" src="/img/java.png">
+                <svg width="200" height="200">
+                  <circle class="stroke_java" cx="100" cy="100" r="89"/>
+                </svg>
+                <p>java</p>
+              </figure>
+              <figure class="html">
+                <img class="html_img" src="/img/html.png">
+                <svg width="200" height="200">
+                  <circle class="stroke_html" cx="100" cy="100" r="89"/>
+                </svg>
+                <p>cpp</p>
+              </figure>
+
+              <figure class="js">
+                <img class="js_img" src="/img/js.png">
+                <svg width="200" height="200">
+                  <circle class="stroke_js" cx="100" cy="100" r="89"/>
+                </svg>
+                <p>js</p>
+              </figure>
+              <figure class="css">
+                <img class="css_img" src="/img/css.png">
+                <svg width="200" height="200">
+                  <circle class="stroke_css" cx="100" cy="100" r="89"/>
+                </svg>
+                <p>css</p>
+              </figure>
+              
+              
+            </div>
+            
+         
+          </div>
+        </div>
+        
+  </section>
+
+  <!-- Project 섹션 -->
+<section class="project" id="project">
+  <div class="max-width">
+      <h2 class="title">Project</h2>
+      <div class="project-content">
+          <div class="left column">
+              <a href="https://velog.io/@sally0715/posts" target="_blank">
+                  <div class="project-item">
+                      <div class="project-images">
+                          <img src="./img/lgaimers.png" alt="">
+                          <div class="project-text">LGAimers 5기</div>
+                          <p>진행 기간 : 2024.07/01~08/31</p>
+                          <p>주제 : 불량 예측 AI 모델 생성</p>
+                          <p>순위 : 191등 / 710팀</p>
+
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="center column">
+              <a href="https://github.com/RohEunSeo/" target="_blank">
+                  <div class="project-item">
+                      <div class="project-images">
+                          <img src="./img/re-design.png" alt="">
+                          <div class="project-text">RE-DESIGN THON</div>
+                          <p>진행 기간 : 2024.07/04~07/05</p>
+                          <p>주제 : 침수 피해 예방 지니어스 빗물받이</p>
+                          <p>대상 수상</p>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="right column">
+              <a href="https://www.notion.so/portfolio-5f699f02e0df494f8052d233c208e9c3">
+                  <div class="project-item">
+                      <div class="project-images">
+                          <img src="./img/cnn.png" alt="">
+                          <div class="project-text">CNN</div>
+                          <p>진행기간 : 2024.10~</p>
+                          <p>주제 : 편의점 YOLOv5 AI 스캐너</p>
+                          <p>진행중</p>
+                      </div>
+                      
+                  </div>
+                  
+              </a>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  <!-- my-site 섹션 -->
+  <section class="my-site" id="Social">
+    <div class="max-width">
+      <h2 class="title">Social</h2>
+      <div class="my-site-content">
+        <div class="left column">
+          <a href="https://velog.io/@sally0715/posts" target="_blank">
+          <div class="site">
+            <div class="site-images">
+              <img src="./img/blog.png" alt="">
+            <div class="site-text">Velog</div>
+            
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="center column">
+          <a href="https://github.com/RohEunSeo/" target="_blank">
+          <div class="site">
+            <div class="site-images">
+              <img src="./img/github.png" alt="">
+            <div class="site-text">Github</div>
+            
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="right column">
+          <a href="https://www.notion.so/portfolio-5f699f02e0df494f8052d233c208e9c3">
+          <div class="site">
+            <div class="site-images">
+              <img src="./img/web.png" alt="">
+            <div class="site-text">Notion</div>
+            
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer 섹션 -->
+  <footer>
+    <span>Created By RohEunSeo</span>
+  </footer>
+
+  <!-- js -->
+  <script src="./script.js"></script>
+</body>
+</html>

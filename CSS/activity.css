@@ -1,0 +1,58 @@
+.activity {
+    padding: 70px ;
+    transition: all 0.3s ease;
+}
+
+.activity .title::after {
+    content: "What Is My Activity ";
+}
+
+
+.activity .activity-content a {
+    display: flex;
+    text-align: center;
+    color: black;
+}
+
+.activity .activity-content a,
+.activity .activity-content a:visited,
+.activity .activity-content a:active,
+.activity .activity-content a:hover {
+    text-decoration: none;
+}
+
+.activity .activity-content .activity-item {
+    background-color:transparent;
+    border-radius: 20px;
+    padding: 25px 35px;
+    transition: all 0.3s ease;
+}
+
+.activity .activity-content .activity-item img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.activity .activity-content .activity-text {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.activity .activity-content p {
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.activity .activity-content .activity-item:hover {
+    background-color: rgb(255, 224, 224);
+    color: black;
+    transform: scale(1.05);
+}
+
+.activity .activity-content .activity-item:hover img {
+    border-color: white;
+}

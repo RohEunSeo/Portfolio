@@ -1,0 +1,100 @@
+/* 구글 폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Hi+Melody&family=Noto+Serif+KR:wght@500&family=Poppins:wght@400;500;600;700&family=Stylish&family=Ubuntu:wght@400;500;700&display=swap');
+
+/* 초기화하기 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.home .about .skills .my-site .activity .project .contact { /* activity 추가 */
+  padding-top: 86px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+/* 섹션 공통부분 CSS */
+.section {
+  padding: 100px 0;
+}
+
+.about,
+.skills,
+.my-site,
+.activity, /* activity 추가 */
+.project,
+.contact,
+footer {
+  font-family: 'Poppins', sans-serif;
+}
+
+.about .title,
+.skills .title,
+.my-site .title,
+.activity .title, /* activity 추가 */
+.project .title,
+.contact .title {
+  position: relative;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 500;
+  margin: 30px 0 100px 0;
+  padding-bottom: 8px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.about .title::before,
+.skills .title::before,
+.my-site .title::before,
+.activity .title::before, /* activity 추가 */
+.project .title::before,
+.contact .title::before {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  width: 350px;
+  height: 4px;
+  background-color: rgb(255, 99, 99);
+  transform: translateX(-50%);
+}
+
+.about .title::after,
+.skills .title::after,
+.activity .title::after, /* activity 추가 */
+.project .title::after,
+.my-site .title::after {
+  content: "";
+  position: absolute;
+  bottom: -38px;
+  left: 50%;
+  font-size: 20px;
+  color: rgb(255, 99, 99);
+  padding: 5px;
+  background-color: transparent;
+  transform: translateX(-50%);
+}
+
+.about .about-content,
+.skills .skills-content,
+.my-site .my-site-content,
+.activity .activity-content, /* activity 추가 */
+.project .project-content,
+.contact .contact-content,
+.skills .skills-content .programming,
+.skills .skills-content .web {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

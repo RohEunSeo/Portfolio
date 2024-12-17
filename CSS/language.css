@@ -1,0 +1,224 @@
+.skills{
+  padding: 100px 0px;
+  transition: all 0.3s ease;
+}
+
+
+.programming{
+  display: flex;
+  padding: 100px;
+  margin-bottom: 50px;
+}
+.programming p{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.programming .cpp{
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.programming .python{
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.programming .java{
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.programming .html{
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.programming .css{
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.programming .js{
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+figure{
+  position: relative;
+}
+.html_img {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  transform: translate(50px, 53px);
+}
+
+.css_img {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  transform: translate(50px, 53px);
+}
+.python_img {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  transform: translate(50px, 53px);
+}
+.cpp_img {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  transform: translate(50px, 53px);
+}
+
+.java_img {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  transform: translate(50px, 53px);
+}
+.js_img {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  transform: translate(50px, 53px);
+}
+
+
+.stroke_html {
+  fill: transparent;
+  stroke: #e34f26;
+  stroke-width: 20;
+  stroke-dasharray: 404;
+  transform: rotate(-90deg) rotateX(-180deg);
+  transform-origin: center;
+  animation: show_circle_html 2s ease infinite;
+}
+
+.stroke_css {
+  fill: transparent;
+  stroke: #79bcfe;
+  stroke-width: 20;
+  stroke-dasharray: 404;
+  transform: rotate(-90deg) rotateX(-180deg);
+  transform-origin: center;
+  animation: show_circle_css 2s ease infinite;
+}
+
+
+.stroke_cpp {
+  fill: transparent;
+  stroke: #326bbf;
+  stroke-width: 20;
+  stroke-dasharray: 404;
+  transform: rotate(-90deg) rotateX(-180deg);
+  transform-origin: center;
+  animation: show_circle_cpp 2s ease infinite;
+}
+
+.stroke_java {
+  fill: transparent;
+  stroke: #ff9f18e9;
+  stroke-width: 20;
+  stroke-dasharray: 404;
+  transform: rotate(-90deg) rotateX(-180deg);
+  transform-origin: center;
+  animation: show_circle_java 2s ease infinite;
+}
+
+.stroke_python {
+  fill: transparent;
+  stroke: #fcdc5d;
+  stroke-width: 20;
+  stroke-dasharray: 404;
+  transform: rotate(-90deg) rotateX(-180deg);
+  transform-origin: center;
+  animation: show_circle_python 2s ease infinite;
+}
+
+.stroke_js {
+  fill: transparent;
+  stroke: #ffb85b;
+  stroke-width: 20;
+  stroke-dasharray: 404;
+  transform: rotate(-90deg) rotateX(-180deg);
+  transform-origin: center;
+  animation: show_circle_js 2s ease infinite;
+}
+
+
+@keyframes show_circle_html {
+  from {
+    stroke-dashoffset: 404; /* 시작점 동일 */
+  }
+  to {
+    stroke-dashoffset: 100; /* 90% 채우기 */
+  }
+}
+
+@keyframes show_circle_css {
+  from {
+    stroke-dashoffset: 404; /* 시작점 동일 */
+  }
+  to {
+    stroke-dashoffset: 160; /* 65% 채우기 */
+  }
+}
+
+
+@keyframes show_circle_cpp {
+  from {
+    stroke-dashoffset: 404; /* 50% */
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes show_circle_java {
+  from {
+    stroke-dashoffset: 404; /* 80% */
+  }
+  to {
+    stroke-dashoffset: 250;
+  }
+}
+@keyframes show_circle_python {
+  from {
+    stroke-dashoffset: 404; /* 70% */
+  }
+  to {
+    stroke-dashoffset: 70;
+  }
+}
+@keyframes show_circle_js {
+  from {
+    stroke-dashoffset: 404; /* 70% */
+  }
+  to {
+    stroke-dashoffset: 250;
+  }
+}
+
+
+.skills .title{
+  padding-top: 30px;
+}
+
+.skills .title::before{
+  background-color: rgb(255, 99, 99);
+}
+
+.skills .title::after{
+  content: "What I learned";
+}
+
+.skills{
+  color: black;
+  padding-bottom: 100px;
+}
+
+.skills .sub-title{
+  font-size: 60px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  text-align: center;
+}
